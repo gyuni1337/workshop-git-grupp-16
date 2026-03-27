@@ -1,7 +1,5 @@
 public class App {
-  static void run() {
-      //Entry point logic
-      
+  static void start() {
     System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0 Exit");
       System.out.println("Your choice: ");
       String choice= new java.util.Scanner(System.in).nextLine();
@@ -14,6 +12,4 @@ public class App {
       if("3".equals(choice)) System.out.println(Calculator.mul(a,b));
       if("4".equals(choice) System.out.println(Calculator.div(a,b));
   }
-
-  public static void main(String[] args) { start(); }
 }
