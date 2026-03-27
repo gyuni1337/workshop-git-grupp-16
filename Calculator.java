@@ -6,7 +6,7 @@ public class Calculator {
   /** Returns the difference of a and b. */
   public static double sub(double a, double b) { return a-b;}
     /** Returns the product of javadoc for mul()*/
-    public static double mul(doublea,double b){
+    public static double mul(double a,double b){
         return a*b;
     }
 
