@@ -7,6 +7,7 @@ public class App {
           System.out.println("1) Add\n2) Subtract\n0) Exit");
       if ("2".equals(choice)) System.out.println(Calculator.sub(a,b));
       double a=Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+
       if("3".equals(choice)) System.out.println(Calculator.mul(a,b));
       if("4".equals(choice) System.out.println(Calculator.div(a,b));
   }
