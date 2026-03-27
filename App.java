@@ -8,8 +8,8 @@ public class App {
       String choice= new java.util.Scanner(System.in).nextLine();
     double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
     double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
-      if ("1".equals(choice))
-          System.out.println("1) Add\n2) Subtract\n0) Exit");
+      if ("1".equals(option))
+          System.out.println("TODO Add");
       if ("2".equals(choice)) System.out.println(Calculator.sub(a,b));
 
       if("3".equals(choice)) System.out.println(Calculator.mul(a,b));
