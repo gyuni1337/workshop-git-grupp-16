@@ -6,5 +6,7 @@ public class App {
       if ("1".equals(choice))
           System.out.println("1) Add\n2) Subtract\n0) Exit");
       double a=Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+
+      if("4".equals(choice) System.out.println(Calculator.div(a,b));
   }
 }
