@@ -13,5 +13,5 @@ public class App {
       if("4".equals(choice) System.out.println(Calculator.div(a,b));
   }
 
-  public static void main(String[] args) { start(); }
+  public static void main(String[] args) { run(); }
 }
